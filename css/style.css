@@ -246,12 +246,17 @@ header {
 
 
 /* __________ Logo __________ */
-/* .logo {float:right;margin-left: 0%;} */
+.clearfix{
+		background-image: url("../images/Top.jpg");
+}
+.logo {
+
+}
 .logo p {
 	text-transform:uppercase;
 	/* line-height:80px; */
-	font-size:3vw;
-	color:#333;
+	font-size:24px;
+	color:#fff;
 	/* margin-top: 2%; */
 }
 .logo p span {
@@ -259,7 +264,7 @@ header {
 	/* padding-right:18px; */
 	padding-top: 2vw;
 }
-.logo p span.b1 {font-weight:900;font-size:2vw;}
+.logo p span.b1 {font-weight:900;}
 .logo p span.b2 {font-weight:700;}
 .logo p span.b3 {font-weight:400;}
 .logo p span.b4 {font-weight:300;}
