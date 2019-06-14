@@ -239,29 +239,31 @@ blockquote:before {content:'“'; position:absolute; left:15px; top:13px; font-s
 /*-----------------------------------------------------------------------------------*/
 header {
 	position:relative;
-	height:80px;
+
 	background-color:#fff;
 
 }
 
 
 /* __________ Logo __________ */
-.logo {float:right;margin-left: 5%;}
-.logo a {
+/* .logo {float:right;margin-left: 0%;} */
+.logo p {
 	text-transform:uppercase;
-	line-height:80px;
-	font-size:26px;
+	/* line-height:80px; */
+	font-size:3vw;
 	color:#333;
+	/* margin-top: 2%; */
 }
-.logo a span {
+.logo p span {
 	display:inline-block;
-	padding-right:18px;
+	/* padding-right:18px; */
+	padding-top: 2vw;
 }
-.logo a span.b1 {font-weight:900;}
-.logo a span.b2 {font-weight:700;}
-.logo a span.b3 {font-weight:400;}
-.logo a span.b4 {font-weight:300;}
-.logo a span.b5 {font-weight:100;}
+.logo p span.b1 {font-weight:900;font-size:2vw;}
+.logo p span.b2 {font-weight:700;}
+.logo p span.b3 {font-weight:400;}
+.logo p span.b4 {font-weight:300;}
+.logo p span.b5 {font-weight:100;}
 
 
 
